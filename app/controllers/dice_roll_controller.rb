@@ -16,10 +16,8 @@ end
 
 
 def twotendice
-
   @first_die = rand(1..10)
   @second_die = rand(1..10)
-
 
   render ({ :template => "path/2d10" })
 

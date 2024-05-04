@@ -1,10 +1,9 @@
     <h1>2d6</h1>
-
+    
 <ul>
+  <% @rolls.each do |a_roll| %>
     <li>
-  <%= @first_die %>
+      <%= a_roll %>
     </li>
-    <li>
-      <%= @second_die %>
-    </li>
+  <% end %>
 </ul>

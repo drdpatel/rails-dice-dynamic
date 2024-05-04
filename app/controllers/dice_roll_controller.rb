@@ -37,6 +37,7 @@ def fivefourdice
   @second_die = rand(1..4)
   @third_die = rand(1..4)
   @forth_die = rand(1..4)
+  @fifth_die = rand(1..4)
 
   render ({ :template => "path/5d4" })
   end
